@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".remedies"
+    android:background="@color/yellow">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/round">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="happyLottie.json"
+
+            app:lottie_loop="true" />
+        <TextView
+            android:id="@+id/rem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="270dp"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:text="Remedies"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emotion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/remedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="300dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/remedi0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="610dp"
+            android:text="Suggested Songs"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/remedi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="650dp"
+            android:onClick="music1"
+            android:text="Music 1"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/remedi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="650dp"
+            android:onClick="music2"
+            android:text="Music 2"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/remedi2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="400dp"-->
+<!--            android:onClick="music2"-->
+<!--            android:text="Music 2"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="20dp" />-->
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstpage"
+    android:background="@color/yellow">
+
+<!--  <TextView-->
+<!--      android:id="@+id/welcome"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="400dp"-->
+<!--      android:background="@color/black"-->
+<!--     ></TextView>-->
+
+
+<!--  <RelativeLayout-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="530dp"-->
+<!--      android:layout_marginTop="200dp"-->
+<!--      android:background="@drawable/emotionpg"></RelativeLayout>-->
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="900dp"
+      android:layout_marginTop="-200dp"
+      android:background="@drawable/round"
+      >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome"
+        android:textColor="@color/white"
+
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="80dp"
+        app:lottie_fileName="happyLottie.json"
+        app:lottie_loop="true"
+
+        app:lottie_autoPlay="true" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation2"
+        android:layout_width="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="165dp"
+
+        app:lottie_autoPlay="true"
+
+
+        app:lottie_fileName="angryLottie.json"
+
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation3"
+        android:layout_width="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="235dp"
+
+        app:lottie_autoPlay="true"
+
+        app:lottie_fileName="sadLottie.json"
+
+        app:lottie_loop="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation4"
+        android:layout_width="70dp"
+        android:layout_marginTop="400dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="305dp"
+
+        app:lottie_autoPlay="true"
+
+        app:lottie_fileName="fearLottie.json"
+
+        app:lottie_loop="true" />
+
+
+      <Button
+          android:layout_width="130dp"
+          android:layout_height="40dp"
+          android:layout_marginTop="740dp"
+          android:text="Login"
+          android:id="@+id/login"
+          android:layout_marginLeft="40dp"
+          android:background="@drawable/buttonround">
+
+      </Button>
+
+<Button
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:id="@+id/signup"
+    android:text="signup"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="800dp"
+    android:background="@drawable/buttonround">
+
+</Button>
+
+
+
+  </RelativeLayout>
+</RelativeLayout>
